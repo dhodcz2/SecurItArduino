@@ -17,16 +17,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
 				<Option type="4"/>
@@ -37,37 +27,43 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SecurItArduino">
-				<Option output="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/SecurItArduino" prefix_auto="0" extension_auto="0"/>
+			<Target title="Production">
 				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/home/pomegranate/Classes/397ECE/SecurItArduino/."/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
+				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 SecurItArduino"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 Production"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="SecurItArduino/fast">
-				<Option output="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/SecurItArduino" prefix_auto="0" extension_auto="0"/>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Debug">
+				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 Debug"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET">
+				<Option output="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pomegranate/Classes/397ECE/SecurItArduino/."/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
@@ -77,20 +73,42 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 SecurItArduino/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Z_DUMMY_TARGET/fast">
+				<Option output="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Z_DUMMY_TARGET" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 Z_DUMMY_TARGET/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/pomegranate/Classes/397ECE/SecurItArduino/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pomegranate/Classes/397ECE/SecurItArduino/PIR_Trigger.ino">
-			<Option target="SecurItArduino"/>
-		</Unit>
-		<Unit filename="/home/pomegranate/Classes/397ECE/SecurItArduino/Snapshot.ino">
-			<Option target="SecurItArduino"/>
+		<Unit filename="/home/pomegranate/Classes/397ECE/SecurItArduino/src/main.cpp">
+			<Option target="Z_DUMMY_TARGET"/>
 		</Unit>
 		<Unit filename="/home/pomegranate/Classes/397ECE/SecurItArduino/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pomegranate/Classes/397ECE/SecurItArduino/CMakeListsPrivate.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
