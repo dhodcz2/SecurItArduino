@@ -23,7 +23,7 @@
 #if defined(__AVR__) || defined(ESP8266)
 
 // On Uno: camera TX connected to pin 2, camera RX to pin 3:
-#include <SoftwareSerial.h>         
+#include <SoftwareSerial.h>
 SoftwareSerial cameraconnection(2, 3);
 // On Mega: camera TX connected to pin 69 (A15), camera RX to pin 3:
 //SoftwareSerial cameraconnection(69, 3);
@@ -112,7 +112,6 @@ void setup() {
 
   // Set the picture size - you can choose one of 640x480, 320x240 or 160x120 
   // Remember that bigger pictures take longer to transmit!
-
   cam.setImageSize(VC0706_640x480);        // biggest
   //cam.setImageSize(VC0706_320x240);        // medium
   //cam.setImageSize(VC0706_160x120);          // small
