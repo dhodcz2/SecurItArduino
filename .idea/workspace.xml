@@ -14,10 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e596699a-e5e9-4237-aeee-e70532d6ab72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PIR_Trigger.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PIR_Trigger.ino" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snapshot.ino" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snapshot.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../361CS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -98,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1615309424032</updated>
       <workItem from="1615309425319" duration="1675000" />
-      <workItem from="1615311128796" duration="537000" />
+      <workItem from="1615311128796" duration="2760000" />
     </task>
     <servers />
   </component>
