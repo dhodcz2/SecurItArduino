@@ -15,6 +15,7 @@
 // directly to the SPI bus of the Mega (pins 50-53), or if using
 // a non-Mega, Uno-style board.
 
+#include <SoftwareSerial.h>
 #include <Adafruit_VC0706.h>
 #include <SPI.h>
 #include <SD.h>
