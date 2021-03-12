@@ -70,7 +70,7 @@ Adafruit_VC0706 cam = Adafruit_VC0706(&cameraconnection);
 //    object) to the VC0706 constructor.
 
 
-void setup() {
+extern void setup() {
 
   // When using hardware SPI, the SS pin MUST be set to an
   // output (even if not connected or used).  If left as a
@@ -177,6 +177,6 @@ void setup() {
   Serial.println(" ms elapsed");
 }
 
-void loop() {
+extern void loop() {
 }
 

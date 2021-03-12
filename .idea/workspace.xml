@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="SecurItArduino" targetName="Z_DUMMY_TARGET" />
       <config projectName="SecurItArduino" targetName="Debug" />
       <config projectName="SecurItArduino" targetName="Production" />
-      <config projectName="SecurItArduino" targetName="Z_DUMMY_TARGET" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,7 +14,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e596699a-e5e9-4237-aeee-e70532d6ab72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pio/build/project.checksum" beforeDir="false" afterPath="$PROJECT_DIR$/.pio/build/project.checksum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platformio.ini" beforeDir="false" afterPath="$PROJECT_DIR$/platformio.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PIR_Trigger.ino" beforeDir="false" afterPath="$PROJECT_DIR$/src/PIR_Trigger.ino" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Snapshot.ino" beforeDir="false" afterPath="$PROJECT_DIR$/src/Snapshot.ino" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +60,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="PlatformIO.PlatformIO Debug">
+  <component name="RunManager" selected="PlatformIO.PlatformIO Upload">
     <configuration name="Z_DUMMY_TARGET" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SecurItArduino" TARGET_NAME="Z_DUMMY_TARGET" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="SecurItArduino" RUN_TARGET_NAME="Z_DUMMY_TARGET">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -83,9 +84,7 @@
       </method>
     </configuration>
     <configuration name="PlatformIO Upload" type="platformio" factoryName="PlatformIO Upload" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SecurItArduino" TARGET_NAME="Production" CONFIG_NAME="uno" RUN_TARGET_PROJECT_NAME="SecurItArduino" RUN_TARGET_NAME="Production">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="CMake Application.Z_DUMMY_TARGET" />
@@ -102,11 +101,19 @@
       <option name="presentableId" value="Default" />
       <updated>1615309424032</updated>
       <workItem from="1615309425319" duration="1675000" />
-      <workItem from="1615311128796" duration="2760000" />
+      <workItem from="1615311128796" duration="5251000" />
+      <workItem from="1615412204586" duration="145000" />
+      <workItem from="1615437618835" duration="15000" />
+      <workItem from="1615570008467" duration="4234000" />
+      <workItem from="1615579145195" duration="1885000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

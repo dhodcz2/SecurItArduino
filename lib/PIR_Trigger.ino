@@ -5,7 +5,7 @@ int pinLed = 13;
 int pirState = LOW;
 int numValue = 0;
 
-void setup() {
+extern void setup() {
 
   pinMode(pinLed, OUTPUT);
   pinMode(pinRead, INPUT);
@@ -13,7 +13,7 @@ void setup() {
   Serial.begin(9600);
 }
 
-void loop() {
+extern void loop() {
 
   numValue = digitalRead(pinRead);
 
